@@ -1,3 +1,3 @@
-import DANISH
-DANISH.exit()
+import HKR
+HKR.exit()
 
