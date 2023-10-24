@@ -1,0 +1,3 @@
+import DANISH
+DANISH.exit()
+
