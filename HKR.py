@@ -1,2 +1,0 @@
-import HKR
-HKR.Main()
