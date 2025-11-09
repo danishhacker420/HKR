@@ -834,14 +834,11 @@ def randm(ids,psd):
     except Exception as e:
         pass
 def Subscraption():
-	UMO="TT"
-	ML1="FBSVR"
-	sk = "454654"
-	lk = "HJH"
+	sk = "danish"
+	lk = "420"
 	uuid =str(os.geteuid()) + str(os.getlogin()) 
 	id = "".join(uuid+sk+lk)
-	key1 = UMO+id+ML1
-	Key2 = ak+ATOM+key1
+	Key2 = sk+id
 	r1=requests.get("https://github.com/danishhacker420/HKR/blob/main/Approval.txt").text
 	if Key2 in r1:
 		os.system('clear')
@@ -878,4 +875,5 @@ def Subscraption():
 Subscraption()         
 menu()
 #__________________[ END ]__________________#
+
 
