@@ -842,7 +842,7 @@ def Subscraption():
 	id = "".join(uuid+sk+lk)
 	key1 = UMO+id+ML1
 	Key2 = ak+ATOM+key1
-	r1=requests.get("https://github.com/ATONxSMILE404/APPRO/blob/main/Approve.txt").text
+	r1=requests.get("https://github.com/danishhacker420/HKR/blob/main/Approval.txt").text
 	if Key2 in r1:
 		os.system('clear')
 		menu() 
@@ -878,3 +878,4 @@ def Subscraption():
 Subscraption()         
 menu()
 #__________________[ END ]__________________#
+
