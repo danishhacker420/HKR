@@ -45,7 +45,7 @@ except:
 from rich.progress import track
      
 def loooood(heron):
-	for i in track(range(500), description=heron):
+	for i in track(range(250), description=heron):
            time.sleep(0.01)
            
 def cek_apk(session,coki):
